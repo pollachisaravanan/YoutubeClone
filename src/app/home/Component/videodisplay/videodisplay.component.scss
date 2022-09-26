@@ -1,0 +1,47 @@
+.locationclass{
+    margin-left:20px;
+
+}
+.titleclass{
+    font-size: 15px;
+    margin-top:10px;
+
+}
+.statistics{
+    display:flex;
+    margin-top:10px;
+}
+
+.channeldetails{
+    display:flex; 
+    margin-top:10px;
+}
+.photodetails{
+    border-radius: 50%;
+    height:40px;
+    width:40px;
+}
+.channelname{
+    display:flex;
+    margin-left:10px;
+    margin-top:10px;
+    color:black;
+    font-weight: 400;
+}
+.btn{
+    margin-left: 350px;
+}
+.relatedtitle{
+    font-size: 15spx;
+    font-style: italic;
+}
+.relatedviews{
+    margin-top:-10px;
+    font-size: 10px;
+    font-style: italic;
+
+}
+.relatedbutton{
+    border:none;
+    cursor: pointer;
+}
