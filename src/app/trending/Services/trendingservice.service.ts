@@ -5,10 +5,10 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class TrendingserviceService {
-  apikey = 'AIzaSyDZImJga5DBPPzvj0wzFesaVrySYvnHoIc';
+  apikey = 'AIzaSyD7D8SVNUYYrfT4cFDfBs1clpkSlpP-_Ys';
   constructor(private _http:HttpClient) { }
 
   gettrending=()=>{
-    return this._http.get('https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&key='+this.apikey);
+    return this._http.get('/api/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&key='+this.apikey);
   }
 }

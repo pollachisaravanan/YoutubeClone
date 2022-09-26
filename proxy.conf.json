@@ -1,0 +1,15 @@
+{
+  "/proxy/*": {
+    "target": "https://youtube.googleapis.com/youtube/v3/",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug",
+    "pathRewrite": {
+        "^/proxy": ""
+    }
+}
+  }
+
+
+
+  
