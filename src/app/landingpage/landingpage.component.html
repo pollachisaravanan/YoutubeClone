@@ -27,7 +27,8 @@
 
                     <i class="material-icons">notifications</i>
 
-                    <button class="accounticon" (click)="showaccount()"><i class="material-icons display-this">account_circle</i></button>
+                    <button class="accounticon" (click)="showaccount()"><i
+                            class="material-icons display-this">account_circle</i></button>
                 </div>
 
             </div>
@@ -87,8 +88,29 @@
 
     </mat-sidenav-container>
 
-    <div  [ngClass]="show?'showaccount':'notshowaccount'">
-        <div>kwnfbfijwbk;jwfkej;qnk;jesn;KJ;JKJJKBKB</div>
+    <div [ngClass]="show?'showaccount':'notshowaccount'">
+        <div class="sidebar_account">
+            <div class="sidebar__category">
+                <i class="material-icons">account_circle</i>
+                <span>Manage your Google Account</span>
+            </div>
+            <div class="sidebar__category">
+                <i class="material-icons">home</i>
+                <span>Your channel</span>
+            </div>
+            <div class="sidebar__category">
+                <i class="material-icons">local_fire_department</i>
+                <span>YouTube Studio</span>
+            </div>
+            <div class="sidebar__category">
+                <i class="material-icons">subscriptions</i>
+                <span>Switch account</span>
+            </div>
+            <div class="sidebar__category">
+                <i class="material-icons">subscriptions</i>
+                <span>Sign out</span>
+            </div>
+        </div>
     </div>
-    
+
 </body>
